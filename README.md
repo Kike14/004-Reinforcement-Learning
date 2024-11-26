@@ -1,5 +1,4 @@
 # 004-Reinforcement-Learning
-# 004-Reinforcement-Learning
 
 ## Description
 This project implements a Reinforcement Learning agent designed to trade in a hybrid environment consisting of both real and simulated datasets. Using a Wasserstein Generative Adversarial Network (WGAN), the project generates simulated stock price scenarios to train the agent and avoid overfitting. The agent is evaluated on its ability to optimize rewards by making sequential decisions, balancing risks, and maximizing performance metrics like the *Max Drawdown*.
