@@ -26,4 +26,4 @@ def generate_scenarios(generator, precios_df, num_scenarios=1000, scenario_lengt
         df = add_all_ta_features(df, open="Open", high="High", low="Low", close="Close", volume="Volume", fillna=True)
         price_scenarios.append(df)
 
-    return price_scenarios
+    return price_scenarios
